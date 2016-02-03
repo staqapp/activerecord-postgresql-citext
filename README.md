@@ -1,3 +1,6 @@
+*This fork enables you to use the gem with later versions of ActiveRecord that do include citext support.  We needed this to facilitate upgrading different apps in our code
+base, one at a time*
+
 # ActiveRecord support for citext
 
 Adds support for citext to active_record
