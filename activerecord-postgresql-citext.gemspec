@@ -3,11 +3,11 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "activerecord-postgresql-citext"
+  spec.name          = "staq-activerecord-postgresql-citext"
   spec.version       = "0.2.0"
   spec.authors       = ["Braintree"]
   spec.email         = ["code@getbraintree.com"]
-  spec.description   = "citext support for rails"
+  spec.description   = "citext support for rails (STAQ version)"
   spec.summary       = "citext support for rails"
   spec.homepage      = "https://github.com/braintree/activerecord-postgresql-citext"
   spec.license       = "MIT"
